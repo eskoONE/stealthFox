@@ -24,12 +24,12 @@
 /* 15px for dragging whole window by mouse*/
 #titlebar {
 	appearance: none !important;
-	height: 6px;
+	height: 5px;
 }
 
 /* Fix for main menu calling by Alt button */
 #titlebar > #toolbar-menubar {
-	margin-top: 0px;
+	margin-top: 8px;
 }
 
 /* Move minimize/restore/close buttons to empty space */
@@ -42,7 +42,7 @@
 
 .titlebar-button {
   background-color: #2B2A33;
-  margin-top : 6px !important;
+  margin-top : 8px !important;
   padding-top : 15px !important;
   padding-bottom : 14px !important;
 }
